@@ -1,0 +1,16 @@
+.player {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50px;
+}
+
+.player::after{
+    position: relative;
+    top: -30px;
+    content: "jugador";
+    background-color: black;
+    color: white;
+    height: 10px;
+    width: 100px;
+}
